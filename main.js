@@ -11,7 +11,7 @@ const inputButton = document.getElementById('button')
 const resultadoCuenta = document.getElementById('resultado')
 
 
-// agregue un evento listener, cuando el usuario haga click en el btn se ejecutara la funcion
+
 inputButton.addEventListener('click', calcular)
 
 function calcular(){

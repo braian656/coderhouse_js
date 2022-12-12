@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.mycalculadora{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mycalculadora input{
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 1rem;
+}
+.mycalculadora .result{
+  background-color: black;
+  color: #fff;
+}
